@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('coffeebean.jpeg') no-repeat center center fixed; 
+  
+}
+
+header {
+    background-color: #6f4e37;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #c7ad93;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #825b48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#menu {
+    background-color: #b5b5b5;
+    border-radius: 8px;
+    padding: 1rem;
+   
+}
+
+section#menu h2 {
+    margin-top: 0;
+}
+
+.menu-item {
+    padding: 1rem 0;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #9a490f;
+}
+
+.menu-item p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #6f4e37;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer form {
+    background-color: #964f14;
+    border-radius: 40px;
+    padding: 1rem;
+
+    display: inline-block;
+    max-width: 700px;
+    width: 100%;
+}
+
+form h2 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input, form select, form textarea {
+   
+   inline-size: 300px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #6f4e37;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5a3e29;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 0.5rem;
+}

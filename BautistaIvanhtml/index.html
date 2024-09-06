@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Menu</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Coffee Shop</h1>
+    </header>
+<div>
+    <nav>
+        <ul>
+            <li><a href="#coffee">Coffee</a></li>
+            <li><a href="#tea">Tea</a></li>
+            <li><a href="#pastries">Pastries</a></li>
+        </ul>
+    </nav>
+</div>
+<div>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <hr>
+            <article class="menu-item" id="coffee">
+                <h3>&#9749 Coffee</h3>
+                <p>Espresso - $3.00 </p>
+                <p>Latte - $4.00 </p>
+                <p>Cappuccino - $4.50 </p>
+            </article>
+            <hr>
+            <article class="menu-item" id="tea">
+                <h3>&#127861 Tea</h3>
+                <p>Green Tea - $2.50</p>
+                <p>Black Tea - $2.50</p>
+                <p>Herbal Tea - $3.00</p>
+            </article>
+            <hr>
+            <article class="menu-item" id="pastries">
+                <h3>&#127856 Pastries</h3>
+                <p>Croissant - $2.00</p>
+                <p>Muffin - $2.50</p>
+                <p>Scone - $3.00</p>
+            </article>
+        </section>
+    </main>
+</div>
+    <footer>
+        <fieldset>
+            
+            <form>
+                <h2>Registration From</h2>
+                <strong>Please fill out this from with te required informations </strong><br><br>
+                <label for="firstname">Enter your firstname:</label><br>
+                <input type="text" id="firstname" name="firstname"><br><br>
+             
+                <label for="lastname">Enter your lastname:</label><br>
+                <input type="text" id="lastname" name="lastname"><br><br>
+               
+                <label for="email">Enter your Email:</label><br>
+                <input type="email" id="email" name="emai"><br><br>
+
+                <label for="Age">Create a New Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="input-file">Upload file</label><br>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file" name="email"><br><br>
+
+                <label for="Age">Input your Age(years):</label><br>
+                <input type="text" id="Age" name="Age"><br><br>
+
+                <label for="about">About You:</label><br>
+                <textarea id="about" name="about"></textarea><br><br>
+
+                <label for="HOW DID YOU HEAR ABOUT US">HOW DID YOU HEAR ABOUT US?</label><br>
+                <select id="HOW DID YOU HEAR ABOUT US?" name="HOW DID YOU HEAR ABOUT US?">
+                    <option value="FRIENDS">FRIENDS</option>
+                    <option value="FAMILY">FAMILY</option>
+                    <option value="SOCIAL MEDIA">SOCIAL MEDIA</option>
+                </select><br><br>
+
+                <fieldset>
+                    <legend>Account type (Required)</legend>
+                    <input required type="radio" value="Personal" id="Personal" name="Account type" >
+                    <label for="Personal">Personal</label>
+                    <input type="radio"  value="Business" id="Business" name="Account type">
+                    <label for="Business">Business</label><br><br>
+                </fieldset>
+
+
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </footer>
+</body>
+</html>
