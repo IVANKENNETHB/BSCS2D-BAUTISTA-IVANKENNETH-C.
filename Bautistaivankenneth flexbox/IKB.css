@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     }
+ body{
+  background-image: url("Nitro_Wallpaper_03_3840x2400.jpg" );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+ 
+    }
     .container{
         box-shadow: 10px 10px 20px;
     align-items: center;
@@ -17,7 +24,7 @@
     }
     
     .form{
-       
+
         background-color: rgb(213, 63, 63);
         align-items: center;
         border: 1px solid black;
@@ -28,6 +35,11 @@
         height: 397px;
     
     }
+ .form h2{
+        font-size:45px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
     .side{
         display: flex;
     }
